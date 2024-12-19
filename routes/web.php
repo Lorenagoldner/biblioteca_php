@@ -31,7 +31,8 @@ Route::middleware('auth')->group(function () {
 
     // Pesquisa de livros
     //Route::get('/livros/pesquisar', [LivroController::class, 'search'])->name('livros.search');
-    Route::get('/livros/search', [LivroController::class, 'search'])->name('livros.search');
+    //Route::get('/livros/search', [LivroController::class, 'search'])->name('livros.search');
+    Route::get('/search', [LivroController::class, 'search'])->name('livros.search');
 
     // Add Livro Route
     Route::post('/livros', [LivroController::class, 'store'])->name('livros.store');
