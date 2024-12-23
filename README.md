@@ -32,12 +32,12 @@ cd biblioteca_php.git
 
 - Abra o arquivo .env e configure as credenciais do banco de dados, como o nome do banco de dados, usuário e senha:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=seubanco
-DB_USERNAME=seuusuario
-DB_PASSWORD=suasenha
+* DB_CONNECTION=mysql
+* DB_HOST=127.0.0.1
+* DB_PORT=3306
+* DB_DATABASE=seubanco
+* DB_USERNAME=seuusuario
+* DB_PASSWORD=suasenha
 
 ### 4.Rodar as Migrações
 
