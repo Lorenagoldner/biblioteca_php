@@ -26,34 +26,43 @@ cd biblioteca_php.git
 
 ### 2. Instalar as dependendências do PHP
 
+```bash
 - composer install
+```
 
 ### 3. Configurar o ambiente
 
 - Abra o arquivo .env e configure as credenciais do banco de dados, como o nome do banco de dados, usuário e senha:
 
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3306
-* DB_DATABASE=seubanco
-* DB_USERNAME=seuusuario
-* DB_PASSWORD=suasenha
+```bash
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=seubanco
+- DB_USERNAME=seuusuario
+- DB_PASSWORD=suasenha
+```
 
 ### 4.Rodar as Migrações
 
 Execute o comando abaixo para   configurar o banco de dados com as tabelas necessárias
 
-  php artisan migrate
-
+```bash
+- php artisan migrate
+```
 
 ## Iniciar serviços no terminal:
 
-php artisan serve
-npm run dev
+```bash
+- php artisan serve
+- npm run dev
+```
 
 ### Acesso à ferramenta: 
 
+```bash
 http://localhost:8000
+```
 
 
 
