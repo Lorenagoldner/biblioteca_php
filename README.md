@@ -19,11 +19,10 @@ Este é um projeto de gestão de livros e autores, construído com o framework L
 
 ### 1. Baixar o Repositório
 
-Se você ainda não baixou o repositório, faça isso com o comando:
-
 ```bash
-git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
+git clone https://github.com/Lorenagoldner/biblioteca_php.git
+cd biblioteca_php.git 
+```
 
 ### 2. Instalar as dependendências do PHP
 
@@ -52,7 +51,9 @@ Execute o comando abaixo para   configurar o banco de dados com as tabelas neces
 php artisan serve
 npm run dev
 
-Acesso à ferramenta: http://localhost:8000
+### Acesso à ferramenta: 
+
+http://localhost:8000
 
 
 
